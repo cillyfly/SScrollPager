@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SScrollPager
 
 [![CI Status](http://img.shields.io/travis/cillyfly/SScrollPager.svg?style=flat)](https://travis-ci.org/cillyfly/SScrollPager)
@@ -27,3 +28,6 @@ cillyfly, cillyfly@gmail.com
 ## License
 
 SScrollPager is available under the MIT license. See the LICENSE file for more info.
+=======
+# SScrollPager
+>>>>>>> f99956850fc1c99a57803a9570b710dd5b6dbf70
