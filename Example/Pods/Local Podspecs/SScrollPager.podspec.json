@@ -1,0 +1,22 @@
+{
+  "name": "SScrollPager",
+  "version": "0.1.0",
+  "summary": "A short description of SScrollPager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/SScrollPager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "cillyfly": "cillyfly@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/SScrollPager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SScrollPager/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - SScrollPager (0.1.0)
+
+DEPENDENCIES:
+  - SScrollPager (from `../`)
+
+EXTERNAL SOURCES:
+  SScrollPager:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SScrollPager: 43cfe536e8ca2c5997cd25631c298205f7b473ae
+
+PODFILE CHECKSUM: bbfc4081de831e6553c4fc203f867c48eeb5eb3b
+
+COCOAPODS: 1.1.0.beta.1

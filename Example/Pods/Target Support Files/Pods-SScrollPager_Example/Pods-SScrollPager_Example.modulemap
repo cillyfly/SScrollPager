@@ -1,0 +1,6 @@
+framework module Pods_SScrollPager_Example {
+  umbrella header "Pods-SScrollPager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

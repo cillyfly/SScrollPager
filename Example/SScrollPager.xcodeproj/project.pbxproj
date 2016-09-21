@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		522034C335CC8F0951D6CB83 /* Pods_SScrollPager_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEFE1E544BB5EE34F3B9FBDE /* Pods_SScrollPager_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		BAF14C8255693738015FC476 /* Pods_SScrollPager_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4086E61A5070C7C52CE6933 /* Pods_SScrollPager_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		181387EDD6D3A0F054F686E9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		2B3ECAACA1151DB1191418BA /* SScrollPager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = SScrollPager.podspec; path = ../SScrollPager.podspec; sourceTree = "<group>"; };
+		2B3ECAACA1151DB1191418BA /* SScrollPager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SScrollPager.podspec; path = ../SScrollPager.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SScrollPager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SScrollPager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,7 +40,13 @@
 		607FACE51AFB9204008FA782 /* SScrollPager_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SScrollPager_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		9E03AA1813A97F5186D567B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		683AF6B938CC663F253C6C4B /* Pods-SScrollPager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SScrollPager_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SScrollPager_Example/Pods-SScrollPager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6E14EED9341D2D6D946BEF00 /* Pods-SScrollPager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SScrollPager_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SScrollPager_Example/Pods-SScrollPager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		75844D958D91F2853C4D9CC7 /* Pods-SScrollPager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SScrollPager_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SScrollPager_Tests/Pods-SScrollPager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		870D98EBCD3D31A6465D7C03 /* Pods-SScrollPager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SScrollPager_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SScrollPager_Tests/Pods-SScrollPager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9E03AA1813A97F5186D567B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C4086E61A5070C7C52CE6933 /* Pods_SScrollPager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SScrollPager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEFE1E544BB5EE34F3B9FBDE /* Pods_SScrollPager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SScrollPager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				522034C335CC8F0951D6CB83 /* Pods_SScrollPager_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,12 +62,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAF14C8255693738015FC476 /* Pods_SScrollPager_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E021C15C165C9D08CE50375 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				683AF6B938CC663F253C6C4B /* Pods-SScrollPager_Example.debug.xcconfig */,
+				6E14EED9341D2D6D946BEF00 /* Pods-SScrollPager_Example.release.xcconfig */,
+				75844D958D91F2853C4D9CC7 /* Pods-SScrollPager_Tests.debug.xcconfig */,
+				870D98EBCD3D31A6465D7C03 /* Pods-SScrollPager_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		106F4EBFA5276839A134E06F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEFE1E544BB5EE34F3B9FBDE /* Pods_SScrollPager_Example.framework */,
+				C4086E61A5070C7C52CE6933 /* Pods_SScrollPager_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +96,8 @@
 				607FACD21AFB9204008FA782 /* Example for SScrollPager */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
+				0E021C15C165C9D08CE50375 /* Pods */,
+				106F4EBFA5276839A134E06F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,9 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SScrollPager_Example" */;
 			buildPhases = (
+				614ACC45DB7DA5B76D796C2E /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
+				35A321BA8C96B03B33ABADC3 /* [CP] Embed Pods Frameworks */,
+				BD9541D48CE2CBB047BBCEE4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SScrollPager_Tests" */;
 			buildPhases = (
+				ED0FC350F2CD37074CFA533F /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
+				93172DD655EFF0563E9CD89D /* [CP] Embed Pods Frameworks */,
+				7A09357C028D73A2AB37216A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -184,7 +222,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "PROJECT" */;
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "SScrollPager" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -222,6 +260,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35A321BA8C96B03B33ABADC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SScrollPager_Example/Pods-SScrollPager_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		614ACC45DB7DA5B76D796C2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7A09357C028D73A2AB37216A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SScrollPager_Tests/Pods-SScrollPager_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93172DD655EFF0563E9CD89D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SScrollPager_Tests/Pods-SScrollPager_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD9541D48CE2CBB047BBCEE4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SScrollPager_Example/Pods-SScrollPager_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED0FC350F2CD37074CFA533F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		607FACCC1AFB9204008FA782 /* Sources */ = {
@@ -355,6 +486,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 683AF6B938CC663F253C6C4B /* Pods-SScrollPager_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SScrollPager/Info.plist;
@@ -367,6 +499,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E14EED9341D2D6D946BEF00 /* Pods-SScrollPager_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SScrollPager/Info.plist;
@@ -379,6 +512,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75844D958D91F2853C4D9CC7 /* Pods-SScrollPager_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -397,6 +531,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 870D98EBCD3D31A6465D7C03 /* Pods-SScrollPager_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -412,7 +547,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "PROJECT" */ = {
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "SScrollPager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,
