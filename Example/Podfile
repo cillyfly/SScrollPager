@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SScrollPager_Example' do
+  pod 'SScrollPager', :path => '../'
+
+  target 'SScrollPager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
